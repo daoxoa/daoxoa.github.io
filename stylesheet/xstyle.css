@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+[class*="col-"] {
+	width: 100%;
+	float: left;
+}
+/*-------Navigation Bar section design--------*/
+nav {
+	padding: 0 40px;
+	background-color: #006666;
+}
+nav a{
+	display: inline-block;
+	padding: 10px 15px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav a.nav_right {
+	float: right;
+}
+
+/*-----Header section design------------*/
+header {
+	background-color: lightgray;
+	border: 1px solid lightgray;
+	padding: 0 40px;
+}
+
+header img {
+	display: none;
+	width: 100%;
+}
+
+/*-----Main section design------------*/
+.main {
+	background-color: lightgray;
+	border: 1px solid lightgray;
+	padding: 0 40px;
+}
+
+.main img {
+	width: 100%;
+	padding: 10px;
+}
+
+/*-----Footer section design------------*/
+footer {
+	background-color: #e6e6e6;
+	padding: 20px 40px 40px;
+}
+
+footer h3, p {
+	padding: 10px 10px 0 0;
+}
+
+/*-----Responsive design------------*/
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+}
+
+@media only screen and (min-width: 992px) {
+    /* For Desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+	nav {
+		background-color: white;
+		border: none;
+	}
+	nav a {
+		color: blue;
+	}
+	header img {
+		display: block;
+		position: relative;
+	}
+	header h1 {
+		position: absolute;
+		top: 25%;
+		left: 10%;
+		color: white;
+		font-size: 3em;
+	}
+	header p {
+		position: absolute;
+		top: 37%;
+		left: 10%;
+		color: white;
+		font-size: 1.25em;
+	}
+	header {
+		padding: 0;
+	}
+	header hr {
+		display: none;
+	}
+
+}
