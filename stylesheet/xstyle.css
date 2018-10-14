@@ -56,6 +56,21 @@ header img {
 	padding: 10px;
 }
 
+form.signup {
+	width:100%;
+	background-color: lightgray;
+	margin: auto;
+}
+
+.textform {
+	width: 100px;
+	display: inline-block;
+}
+
+.subm {
+	width: 100px;
+	margin: auto;
+}
 /*-----Footer section design------------*/
 footer {
 	background-color: #e6e6e6;
@@ -81,6 +96,11 @@ footer h3, p {
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+	form.signup {
+	width:33%;
+	background-color: lightgray;
+	margin: auto;
+}
 
 }
 
@@ -129,5 +149,9 @@ footer h3, p {
 	header hr {
 		display: none;
 	}
+	form.signup {
+	width:33%;
+	background-color: lightgray;
+	margin: auto;
 
 }
