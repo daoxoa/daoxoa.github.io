@@ -98,8 +98,6 @@ footer h3, p {
     .col-s-12 {width: 100%;}
 	form.signup {
 	width:33%;
-	background-color: lightgray;
-	margin: auto;
 }
 
 }
@@ -151,7 +149,5 @@ footer h3, p {
 	}
 	form.signup {
 	width:33%;
-	background-color: lightgray;
-	margin: auto;
 
 }
